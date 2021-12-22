@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "environnements",
+  "info": {
+    "singularName": "environnement",
+    "pluralName": "environnements",
+    "displayName": "Environnement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
